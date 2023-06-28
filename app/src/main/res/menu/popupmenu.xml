@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/menugroup1" >
+        <item
+            android:id="@+id/menu1"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Level 1"/>
+        <item
+            android:id="@+id/menu2"
+            android:title="Level2"/>
+        <item
+            android:id="@+id/menu3"
+            android:title="Level3"/>
+
+        <item
+            android:id="@+id/menu4"
+            android:checked="true"
+            android:title="Level 4"/>
+        <item
+            android:id="@+id/menu5"
+            android:title="Level 5"/>
+
+        <item
+            android:id="@+id/menu6"
+            android:title="Level 6"/>
+        <item
+            android:id="@+id/menu7"
+            android:title="Level 7"/>
+        <item
+            android:id="@+id/menu8"
+            android:title="Level 8"/>
+        <item
+            android:id="@+id/menu9"
+            android:title="Level 9"/>
+        <item
+            android:id="@+id/menu10"
+            android:title="Level 10"/>
+        <item
+            android:id="@+id/menu11"
+            android:title="Level 11"/>
+        <item
+            android:id="@+id/menu12"
+            android:title="Level 12"/>
+        <item
+            android:id="@+id/menu13"
+            android:title="Level 13"/>
+        <item
+            android:id="@+id/menu14"
+            android:title="Level 14"/>
+        <item
+            android:id="@+id/menu15"
+            android:title="Level 15"/>
+        <item
+            android:id="@+id/menu16"
+            android:title="Level 16"/>
+        <item
+            android:id="@+id/menu17"
+            android:title="Level 17"/>
+        <item
+            android:id="@+id/menu18"
+            android:title="Level 18"/>
+        <item
+            android:id="@+id/menu19"
+            android:title="Level 19"/>
+        <item
+            android:id="@+id/menu20"
+            android:title="Level 20"/>
+        <item
+            android:id="@+id/menu21"
+            android:title="Level 21"/>
+        <item
+            android:id="@+id/menu22"
+            android:title="Level 22"/>
+        <item
+            android:id="@+id/menu23"
+            android:title="Level 23"/>
+        <item
+            android:id="@+id/menu24"
+            android:title="Level 24"/>
+        <item
+            android:id="@+id/menu25"
+            android:title="Level 25"/>
+        <item
+            android:id="@+id/menu26"
+            android:title="Level 26"/>
+        <item
+            android:id="@+id/menu27"
+            android:title="Level 27"/>
+        <item
+            android:id="@+id/menu28"
+            android:title="Level 28"/>
+        <item
+            android:id="@+id/menu29"
+            android:title="Level 29"/>
+        <item
+            android:id="@+id/menu30"
+            android:title="Level 30"/>
+        <item
+            android:id="@+id/menu31"
+            android:title="Level 31"/>
+        <item
+            android:id="@+id/menu32"
+            android:title="Level 32"/>
+        <item
+            android:id="@+id/menu33"
+            android:title="Level 33"/>
+        <item
+            android:id="@+id/menu34"
+            android:title="Level 34"/>
+        <item
+            android:id="@+id/menu35"
+            android:title="Level 35"/>
+        <item
+            android:id="@+id/menu36"
+            android:title="Level 36"/>
+        <item
+            android:id="@+id/menu37"
+            android:title="Level 37"/>
+        <item
+            android:id="@+id/menu38"
+            android:title="Level 38"/>
+        <item
+            android:id="@+id/menu39"
+            android:title="Level 39"/>
+        <item
+            android:id="@+id/menu40"
+            android:title="Level 40"/>
+
+
+    </group>
+
+</menu>
