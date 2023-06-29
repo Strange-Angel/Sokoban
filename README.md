@@ -1,2 +1,2 @@
 # Sokoban
-# My interpretation game for android devices
+# My interpretation this game for android devices
