@@ -126,7 +126,66 @@
         <item
             android:id="@+id/menu40"
             android:title="Level 40"/>
-
+        <item
+            android:id="@+id/menu41"
+            android:title="Level 41"/>
+        <item
+            android:id="@+id/menu42"
+            android:title="Level 42"/>
+        <item
+            android:id="@+id/menu43"
+            android:title="Level 43"/>
+        <item
+            android:id="@+id/menu44"
+            android:title="Level 44"/>
+        <item
+            android:id="@+id/menu45"
+            android:title="Level 45"/>
+        <item
+            android:id="@+id/menu46"
+            android:title="Level 46"/>
+        <item
+            android:id="@+id/menu47"
+            android:title="Level 47"/>
+        <item
+            android:id="@+id/menu48"
+            android:title="Level 48"/>
+        <item
+            android:id="@+id/menu49"
+            android:title="Level 49"/>
+        <item
+            android:id="@+id/menu50"
+            android:title="Level 50"/>
+        <item
+            android:id="@+id/menu51"
+            android:title="Level 51"/>
+        <item
+            android:id="@+id/menu52"
+            android:title="Level 52"/>
+        <item
+            android:id="@+id/menu53"
+            android:title="Level 53"/>
+        <item
+            android:id="@+id/menu54"
+            android:title="Level 54"/>
+        <item
+            android:id="@+id/menu55"
+            android:title="Level 55"/>
+        <item
+            android:id="@+id/menu56"
+            android:title="Level 56"/>
+        <item
+            android:id="@+id/menu57"
+            android:title="Level 57"/>
+        <item
+            android:id="@+id/menu58"
+            android:title="Level 58"/>
+        <item
+            android:id="@+id/menu59"
+            android:title="Level 59"/>
+        <item
+            android:id="@+id/menu60"
+            android:title="Level 60"/>
 
     </group>
 

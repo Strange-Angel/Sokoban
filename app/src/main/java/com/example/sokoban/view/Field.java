@@ -8,6 +8,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.PopupMenu;
+import android.widget.TextView;
+import android.widget.Toast;
+
 import com.example.sokoban.MainActivity;
 import com.example.sokoban.R;
 import com.example.sokoban.controller.EventListener;
@@ -56,8 +59,17 @@ public class Field extends View {
                 MenuItem menuitem = popupMenu.getMenu().getItem(i);
                 if (menuitem.equals(item)) {
                     String[] str = item.toString().split(" ");
-                    int lvl = Integer.parseInt(str[1]);
-                    eventListener.loadGame(lvl);
+                    try {
+                        int lvl = Integer.parseInt(str[1]);
+                        eventListener.loadGame(lvl);
+                    } catch (Exception e){
+                        Toast toast = draw2D.getToast();
+                        View toastView = toast.getView();
+                        TextView textView = (TextView) toastView.findViewById(R.id.loadView);
+                        textView.setText("Ошибка загрузки!");
+                        textView.setBackgroundColor(Color.RED);
+                        toast.show();
+                    }
                     return true;
                 }
             }
