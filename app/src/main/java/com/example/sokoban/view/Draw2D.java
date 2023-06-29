@@ -81,9 +81,6 @@ public class Draw2D extends View {
     public Field getField() {
         return field;
     }
-    public void pressButtons(){
-    }
-
 
 
 }

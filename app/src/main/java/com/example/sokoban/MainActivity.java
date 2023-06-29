@@ -1,18 +1,12 @@
 package com.example.sokoban;
 
-import android.accessibilityservice.GestureDescription;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.MotionEvent;
-import android.view.View;
-import android.widget.Button;
 import android.widget.RelativeLayout;
 
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.sokoban.controller.Controller;
-import com.example.sokoban.view.OnSwipeTouchListener;
 
 
 public class MainActivity extends AppCompatActivity {

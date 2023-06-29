@@ -55,9 +55,8 @@ public class Field extends View {
             for (int i = 0; i < popupMenu.getMenu().size(); i++) {
                 MenuItem menuitem = popupMenu.getMenu().getItem(i);
                 if (menuitem.equals(item)) {
-                    //Toast.makeText(context, item.toString(), Toast.LENGTH_SHORT).show();
-                    String[] str = item.toString().split("vel");
-                    int lvl = Integer.parseInt(str[1].trim());
+                    String[] str = item.toString().split(" ");
+                    int lvl = Integer.parseInt(str[1]);
                     eventListener.loadGame(lvl);
                     return true;
                 }
